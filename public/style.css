@@ -1,0 +1,63 @@
+* { 
+	margin: 0; 
+	
+	box-sizing: border-box; 
+}
+
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0%;
+}
+
+h1 {
+	background-color: #e6ffe6;
+}
+ 
+.body { 
+	padding: 0 .5rem; 
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+}
+ 
+ form { 
+ 	background: #e6ffe6; 
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+ }
+ 
+ form input { 
+ 	background-color: #e6ffe6;
+ 	border: 0; 
+ 	padding: 1rem; 
+ 	width: 100%; 
+	flex: .9;
+ }
+ 
+.send { 
+ 	width: 100%; 
+ 	background: #fc813f;
+ 	border: none; 
+ 	padding: 1rem; 
+ 	font-size: 20px;
+	margin: 0; 
+	flex: .1; 
+ }
+ 
+ #messages li { 
+ 	padding: 1rem; 
+ }
+ 
+ #messages li:nth-child(odd) { 
+ 	background: #d9deed; 
+ }
+
+
+#list{
+	text-align: right;
+}
